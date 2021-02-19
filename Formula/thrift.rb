@@ -5,15 +5,6 @@ class Thrift < Formula
   sha256 "7ad348b88033af46ce49148097afe354d513c1fca7c607b59c33ebb6064b5179"
   license "Apache-2.0"
 
-  bottle do
-    rebuild 1
-    sha256 cellar: :any, arm64_big_sur: "ef547715c618d3a3cd8586f9678e1b5d09e970680ca44e3a184a106142ff0537"
-    sha256 cellar: :any, big_sur:       "5f5280ff34d8e814e52cddf28d84b6e519cf29cc8d56f4712421a78da8e265e8"
-    sha256 cellar: :any, catalina:      "9fff4084e59bf612da35f7e731c82f5a1d714aec8ba860a2521c0ca1d73731d4"
-    sha256 cellar: :any, mojave:        "840fbc8db938bc1b8e50d16f733bcd22a8918efee276cbf969fc79f779380b5d"
-    sha256 cellar: :any, high_sierra:   "bec0a20279bf36bcd960c71b9e417e41a53479e8a575034bef426994e7ecc546"
-  end
-
   head do
     url "https://github.com/apache/thrift.git"
 
